@@ -10,3 +10,4 @@ choco install -y postgresql heidisql composer mongodb mongodb-compass nodejs neo
 
 # Copy the nginx.conf to the installation directory.
 Copy-Item ".\nginx.conf" -Destination "C:\tools\nginx-1.29.0\conf\"
+Copy-Item ".\phpinfo.php" -Destination "C:\tools\nginx-1.29.0\html\"
