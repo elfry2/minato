@@ -10,12 +10,12 @@ On a PowerShell session with administrative privileges, navigate to the root dir
 ## Usage
 To start PHP-CGI, on a new session, execute
 ```powershell
-cd c:\tools\nginx\php && php-cgi.exe -b 127.0.0.1:9123
+cd c:\tools\nginx\php; php-cgi.exe -b 127.0.0.1:9123
 ```
 
 To start nginx, on a new session, execute
 ```powershell
-cd c:\tools\nginx && start nginx
+cd c:\tools\nginx; start nginx
 ```
 
 For other usages, consult the respective documentation of the packages.
