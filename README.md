@@ -13,6 +13,8 @@ To start PHP-CGI, on a new session, execute
 cd $HOME\AppData\scoop\php82; php-cgi.exe -b 127.0.0.1:9123
 ```
 
+To stop PHP-CGI, simply press ```Ctrl```+```C```.
+
 To start nginx, on a new session, execute
 ```powershell
 cd $HOME\AppData\scoop\nginx1.29.0; start nginx
