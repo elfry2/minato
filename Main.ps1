@@ -1,5 +1,5 @@
 $Scripts = @(
-  "InstallAndConfigureApache.ps1"
+  "InstallAndConfigureScoopSh.ps1"
 )
 
 foreach ($Script in $Scripts) {
