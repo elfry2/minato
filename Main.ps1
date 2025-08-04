@@ -9,4 +9,4 @@ scoop install git
 scoop bucket add extras
 
 # Install the required Scoop packages
-scoop install postgresql nginx php composer nodejs mongodb neovim
+scoop install postgresql heidisql nginx php composer nodejs mongodb neovim
