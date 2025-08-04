@@ -10,3 +10,6 @@ scoop bucket add extras
 
 # Install the required Scoop packages
 scoop install postgresql heidisql nginx php composer nodejs mongodb neovim
+
+# Copy the nginx.conf.
+Copy-Item "nginx.conf" -Destination "$HOME\scoop\apps\nginx\1.29.0\conf"
