@@ -2,7 +2,7 @@
 A PowerShell script to (almost) effortlessly install and configure Git, PostgreSQL, HeidiSQL, nginx, PHP, Composer, NodeJS, MongoDB, MongoDB Compass, Curlie, and Neovim on Windows.
 
 ## Installation
-On PowerShell, navigate to the root directory of this project, then execute
+On PowerShell, execute
 ```powershell
 # Install Scoop.
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
