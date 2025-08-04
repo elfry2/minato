@@ -15,7 +15,7 @@ cd c:\tools\php84; php-cgi.exe -b 127.0.0.1:9123
 
 To start nginx, on a new session, execute
 ```powershell
-cd c:\tools\nginx; start nginx
+cd c:\tools\nginx-1.29.0; start nginx
 ```
 
 For other usages, consult the respective documentation of the packages.
