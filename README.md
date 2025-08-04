@@ -18,21 +18,15 @@ cd shinra
 ```
 
 ## Usage
-To start PHP-CGI, on a new session, execute
+To start the servers, execute
 ```powershell
-cd $HOME\AppData\scoop\php82; php-cgi.exe -b 127.0.0.1:9123
-```
+# PHP-CGI
+cd $HOME\AppData\scoop\php82
+Start-Process -NoNewWindow php-cgi.exe -b 127.0.0.1:9123
 
-To stop PHP-CGI, simply press ```Ctrl```+```C```.
-
-To start nginx, on a new session, execute
-```powershell
-cd $HOME\AppData\scoop\nginx1.29.0; start nginx
-```
-
-To stop nginx, execute
-```powershell
-taskkill /IM nginx.exe /F
+# nginx
+cd $HOME\AppData\scoop\nginx1.29.0
+start nginx
 ```
 
 For other usages, consult the respective documentation of the packages.
