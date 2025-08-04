@@ -1,5 +1,6 @@
 $Scripts = @(
-  "InstallAndConfigureScoopSh.ps1"
+  "InstallScoop.ps1",
+  "AddRequiredScoopBuckets.ps1"
 )
 
 foreach ($Script in $Scripts) {
