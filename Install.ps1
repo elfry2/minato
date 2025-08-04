@@ -5,7 +5,8 @@ Invoke-RestMethod -Uri https://get.scoop.sh | Out-Null
 # Install Git via Scoop.
 scoop install git
 
-# Install Scoop bucket.
+# Install the required Scoop buckets.
+scoop bucket add versions
 scoop bucket add extras
 
 # Install the required Scoop packages.
