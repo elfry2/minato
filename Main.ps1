@@ -9,5 +9,6 @@ choco install -y php --version=8.4.8
 choco install -y postgresql heidisql composer mongodb mongodb-compass nodejs neovim
 
 # Copy the nginx.conf to the installation directory.
+# Inspired by something found on https://gist.github.com/odan/b5f7de8dfbdbf76bef089776c868fea1.
 Copy-Item ".\nginx.conf" -Destination "C:\tools\nginx-1.29.0\conf\" -Verbose 
 Copy-Item ".\phpinfo.php" -Destination "C:\tools\nginx-1.29.0\html\" -Verbose
