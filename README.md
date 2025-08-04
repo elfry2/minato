@@ -1,5 +1,5 @@
 # shinra
-A PowerShell script to (almost) effortlessly install and configure Git, PostgreSQL, HeidiSQL, nginx, PHP, Composer, NodeJS, MongoDB, MongoDB Compass, and Neovim on Windows.
+A PowerShell script to (almost) effortlessly install and configure Git, PostgreSQL, HeidiSQL, nginx, PHP, Composer, NodeJS, MongoDB, MongoDB Compass, Curlie, and Neovim on Windows.
 
 ## Installation
 On a PowerShell session with administrative privileges, navigate to the root directory of this project, then execute
@@ -10,12 +10,12 @@ On a PowerShell session with administrative privileges, navigate to the root dir
 ## Usage
 To start PHP-CGI, on a new session, execute
 ```powershell
-cd c:\tools\php84; php-cgi.exe -b 127.0.0.1:9123
+cd $HOME\AppData\scoop\php82; php-cgi.exe -b 127.0.0.1:9123
 ```
 
 To start nginx, on a new session, execute
 ```powershell
-cd c:\tools\nginx-1.29.0; start nginx
+cd $HOME\AppData\scoop\nginx1.29.0; start nginx
 ```
 
 For other usages, consult the respective documentation of the packages.
