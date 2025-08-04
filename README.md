@@ -1,5 +1,5 @@
 # shinra
-A PowerShell script to easily install and configure Git, PostgreSQL, HeidiSQL, nginx, PHP, Composer, NodeJS, MongoDB, and Neovim on Windows.
+A PowerShell script to (almost) effortlessly install and configure Git, PostgreSQL, HeidiSQL, nginx, PHP, Composer, NodeJS, MongoDB, and Neovim on Windows.
 
 ## Installation
 On a PowerShell session with administrative privileges, navigate to the root directory of this project, then execute
