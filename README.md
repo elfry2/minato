@@ -4,7 +4,7 @@ A PowerShell script to (almost) effortlessly install and configure Git, PostgreS
 ## Installation
 On a PowerShell session with administrative privileges, navigate to the root directory of this project, then execute
 ```powershell
-./Main.ps1
+./Install.ps1
 ```
 
 ## Usage
