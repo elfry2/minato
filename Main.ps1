@@ -7,4 +7,4 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocola
 choco install -y postgresql heidisql nginx --version=1.29.0 php  --version=8.4 composer mongodb mongodb-compass nodejs neovim
 
 # Copy the nginx.conf to the installation directory.
-Copy-Item ".\nginx.conf" -Destination "C:\tools\nginx1.29.0\conf\"
+Copy-Item ".\nginx.conf" -Destination "C:\tools\nginx-1.29.0\conf\"
