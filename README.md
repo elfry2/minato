@@ -25,6 +25,6 @@ To start the servers, navigate to the root directory of this repo, and execute
 
 To start the servers automatically on startup, copy a shortcut to ```Start.ps1``` to ```%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup```.
 
-To check whether the servers are running, open ```http://localhost/phpinfo.php```.
+To check whether the servers are running, visit ```http://localhost/phpinfo.php```.
 
 For other usages, consult the respective documentation of the packages.
