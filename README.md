@@ -23,4 +23,6 @@ To start the servers, navigate to the root directory of this repo, and execute
 .\Start.ps1
 ```
 
+To start the servers automatically on startup, copy a shortcut to ```Start.ps1``` to ```shell:startup```.
+
 For other usages, consult the respective documentation of the packages.
