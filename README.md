@@ -5,5 +5,4 @@ A PowerShell script to easily install and configure Git, PostgreSQL, nginx, PHP,
 On PowerShell, navigate to the root directory of this project, then execute ```./Main.ps1```.
 
 ## Usage
-Consult the documentation of respective packages.
-
+Consult the respective documentation of the packages.
