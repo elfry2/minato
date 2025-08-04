@@ -6,4 +6,8 @@ foreach ($Script in $Scripts) {
   if($LastExitCode == 0) {
     & Script
   }
+
+  else {
+    Exit 1
+  }
 }
