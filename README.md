@@ -17,4 +17,5 @@ To start nginx, on a new session, execute
 ```powershell
 cd c:\tools\nginx && start nginx
 ```
-For other usage, consult the respective documentation of the packages.
+
+For other usages, consult the respective documentation of the packages.
