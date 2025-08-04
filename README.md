@@ -18,7 +18,7 @@ cd shinra
 ```
 
 ## Usage
-To start the servers, execute
+To start the servers, navigate to the root directory of this repo, and execute
 ```powershell
 .\Start.ps1
 ```
