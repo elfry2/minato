@@ -1,4 +1,4 @@
- $InitialDirectory = "$CWD"
+$InitialDirectory = "$CWD"
 
 # Start PHP-CGI.
 cd $HOME\AppData\scoop\php82
