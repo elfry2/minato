@@ -1,14 +1,6 @@
-$Scripts = @(
-  "InstallScoop.ps1",
-  "AddRequiredScoopBuckets.ps1"
-)
+# Install Scoop.
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 
-foreach ($Script in $Scripts) {
-  if($LastExitCode == 0) {
-    & Script
-  }
-
-  else {
-    Exit 1
-  }
-}
+# Install the required Scoop packages
+scoop install git nginx mariadb php nodejs mongodb lazyvim
