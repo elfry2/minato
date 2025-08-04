@@ -1,15 +1,17 @@
-# Install Chocolatey.
-Set-ExecutionPolicy Bypass -Scope Process -Force;
-[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072;
-iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+# Install Scoop.
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 
-# Install the required Chocolatey packages.
-choco install --yes nginx --version=1.29.0
-choco install --yes php --version=8.4.8
-choco install --yes postgresql17 --params '/Password:test'
-choco install --yes git heidisql composer mongodb mongodb-compass nodejs neovim
+# Install Git via Scoop.
+scoop install git
 
-# Copy the nginx.conf to the installation directory.
+# Install Scoop bucket.
+scoop bucket add extras
+
+# Install the required Scoop packages.
+scoop install postgresql heidisql nginx@1.29.0 php@8.4.8 composer nodejs mongodb mongodb-compass curlie neovim
+
+# Copy the files into the installation directories.
 # Inspired by something found on https://gist.github.com/odan/b5f7de8dfbdbf76bef089776c868fea1.
-Copy-Item ".\nginx.conf" -Destination "C:\tools\nginx-1.29.0\conf\" -Verbose 
-Copy-Item ".\phpinfo.php" -Destination "C:\tools\nginx-1.29.0\html\" -Verbose
+Copy-Item ".\nginx.conf" -Destination "$HOME\AppData\scoop\nginx1.29.0\conf\" -Verbose 
+Copy-Item ".\phpinfo.php" -Destination "$HOME\AppData\scoop\nginx1.29.0\html\" -Verbose 
