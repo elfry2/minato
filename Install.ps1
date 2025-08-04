@@ -1,6 +1,6 @@
 # Install Scoop.
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+Invoke-RestMethod -Uri https://get.scoop.sh | Out-Null
 
 # Install Git via Scoop.
 scoop install git
