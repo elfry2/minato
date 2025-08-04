@@ -20,4 +20,9 @@ To start nginx, on a new session, execute
 cd $HOME\AppData\scoop\nginx1.29.0; start nginx
 ```
 
+To stop nginx, execute
+```powershell
+taskkill /IM nginx.exe /F
+```
+
 For other usages, consult the respective documentation of the packages.
