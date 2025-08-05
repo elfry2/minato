@@ -24,8 +24,6 @@ To start the servers, navigate to the root directory of this repo, and execute
 ```
 You may close whatever window it launches.
 
-To start the servers automatically on startup, copy a shortcut to ```Start.ps1``` to ```%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup```.
-
 To check whether the servers are running correctly, visit [http://localhost/](http://localhost/).
 
 For other usages, consult the respective documentation of the packages.
