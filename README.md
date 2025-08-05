@@ -22,7 +22,7 @@ To start the servers, navigate to the root directory of this repo, and execute
 ```powershell
 .\Start.ps1
 ```
-You may close whatever window it launches.
+You may close whatever window that appears.
 
 To start the servers automatically on startup, copy a shortcut to ```Start.ps1``` to ```%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup```.
 
