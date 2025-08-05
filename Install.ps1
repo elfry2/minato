@@ -18,3 +18,4 @@ scoop install postgresql dbeaver composer nodejs mongodb mongodb-compass curlie 
 # Inspired by something found on https://gist.github.com/odan/b5f7de8dfbdbf76bef089776c868fea1.
 Copy-Item ".\nginx.conf" -Destination "$HOME\scoop\apps\nginx\1.29.0\conf\" -Verbose
 Copy-Item ".\index.php" -Destination "$HOME\scoop\apps\nginx\1.29.0\html\" -Verbose
+Copy-Item ".\php.ini" -Destination "$HOME\scoop\apps\php82\8.2.29" -Verbose
