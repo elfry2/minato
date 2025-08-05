@@ -1,4 +1,4 @@
-$InitialDirectory = "$CWD"
+$InitialDirectory = $CWD
 
 # Start PHP-CGI.
 cd $HOME\scoop\apps\php82\8.2.29
