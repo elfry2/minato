@@ -1,7 +1,7 @@
 $InitialDirectory = "$CWD"
 
 # Start PHP-CGI.
-cd $HOME\scoop\apps\php82
+cd $HOME\scoop\apps\php82\8.2.29
 Start-Process -NoNewWindow php-cgi.exe -b 127.0.0.1:9123
 
 # Start nginx.
