@@ -7,9 +7,10 @@ scoop install git
 
 # Install the required Scoop buckets.
 scoop bucket add extras
+scoop bucket add versions
 
 # Install the required Scoop packages.
-scoop install postgresql dbeaver nginx@1.29.0 php@8.2.0 composer nodejs mongodb mongodb-compass curlie neovim
+scoop install postgresql dbeaver nginx@1.29.0 php82 composer nodejs mongodb mongodb-compass curlie neovim
 
 # Copy the files into the installation directories.
 # Inspired by something found on https://gist.github.com/odan/b5f7de8dfbdbf76bef089776c868fea1.
