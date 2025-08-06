@@ -21,4 +21,4 @@ scoop install postgresql composer nodejs mongodb mongosh curlie neovim gh
 Copy-Item ".\nginx.conf" -Destination "$HOME\scoop\apps\nginx\1.29.0\conf\" -Verbose
 Copy-Item ".\index.php" -Destination "$HOME\scoop\apps\nginx\1.29.0\html\" -Verbose
 Copy-Item ".\php.ini" -Destination "$HOME\scoop\apps\php82\8.2.29" -Verbose
-Rename-Item -Path "$HOME\scoop\apps\php82\8.2.29\cli\php.ini" "$HOME\scoop\apps\php82\8.2.29\cli\php.ini.unused"
+Copy-Item "cli\php.ini" -Destination "$HOME\scoop\apps\php82\8.2.29\cli" -Verbose
