@@ -22,3 +22,5 @@ Copy-Item ".\nginx.conf" -Destination "$HOME\scoop\apps\nginx\1.29.0\conf\" -Ver
 Copy-Item ".\index.php" -Destination "$HOME\scoop\apps\nginx\1.29.0\html\" -Verbose
 Copy-Item ".\php.ini" -Destination "$HOME\scoop\apps\php82\8.2.29" -Verbose
 Copy-Item "cli\php.ini" -Destination "$HOME\scoop\apps\php82\8.2.29\cli" -Verbose
+
+echo "Script finished. Make sure to read the output."
