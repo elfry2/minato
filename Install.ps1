@@ -10,6 +10,8 @@ scoop bucket add extras
 scoop bucket add versions
 
 # Install the required Scoop packages.
+#scoop install nginx@1.29.0
+#scoop install php82@8.2.29
 scoop install nginx php postgresql composer nodejs mongodb mongosh curlie neovim gh
 
 # Copy the files into the installation directories.
