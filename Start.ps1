@@ -4,7 +4,7 @@ $InitialDirectory = "$PWD"
 Start-Job { php-cgi.exe -b 127.0.0.1:9123 }
 
 # Start nginx.
-cd $HOME\scoop\apps\nginx\1.29.0
+cd $HOME\scoop\apps\nginx\current
 start .\nginx
 
 # Start PostgreSQL.
