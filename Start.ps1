@@ -4,7 +4,7 @@ $InitialDirectory = "$PWD"
 Start-Job { php-cgi.exe -b 127.0.0.1:9123 }
 
 # Start nginx.
-Start-Job { start nginx }
+start nginx
 
 # Start PostgreSQL.
 Start-Job { pg_ctl start }
