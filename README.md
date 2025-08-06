@@ -1,5 +1,5 @@
 # shinra
-A PowerShell script to (almost) effortlessly install and configure Git, GitHub CLI, GitHub Desktop, PostgreSQL, DBeaver, nginx, PHP, Composer, NodeJS, MongoDB, MongoDB Compass, Curlie, and Neovim on Windows.
+A PowerShell script to (almost) effortlessly install and configure Git, GitHub CLI, PostgreSQL, nginx, PHP, Composer, NodeJS, MongoDB, MongoDB Shell, Curlie, and Neovim on Windows.
 
 ## Installation
 On PowerShell, execute (can be pasted at once)
