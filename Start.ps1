@@ -7,6 +7,6 @@ Start-Job { php-cgi.exe -b 127.0.0.1:9123 }
 start nginx
 
 # Start PostgreSQL.
-pg_ctl start
+Start-Job { pg_ctl start }
 
 cd $InitialDirectory
