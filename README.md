@@ -17,4 +17,4 @@ cd shinra
 ./Install.ps1
 ```
 
-Once the installation is finished, you can forget about it. The web root directory is `$HOME\scoop\apps\nginx\1.29.0\html`
+Once the installation is finished, you can forget about it. The web root directory is `$HOME\scoop\apps\nginx\1.29.0\html`. Happy coding!
