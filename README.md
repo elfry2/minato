@@ -17,13 +17,4 @@ cd shinra
 ./Install.ps1
 ```
 
-## Usage
-To start the servers, navigate to the root directory of this repo, and execute
-```powershell
-.\Start.ps1
-```
-You may close whatever window it launches.
-
-To check whether the servers are running correctly, visit [http://localhost/](http://localhost/).
-
-For other usages, consult the respective documentation of the packages.
+Once the installation is finished, you can forget about it. The web root directory is `$HOME\scoop\apps\nginx\1.29.0\html`
