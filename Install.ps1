@@ -26,6 +26,6 @@ Copy-Item "cli\php.ini" -Destination "$HOME\scoop\apps\php82\8.2.29\cli" -Verbos
 # Start shinra automatically on startup.
 New-Item -Path "C:\shinra" -ItemType Directory -Verbose
 Copy-Item ".\Start.ps1" -Destination "C:\shinra" -Verbose
-Copy-Item ".\Start shinra.lnk" -Destination "$USER\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" -Verbose
+Copy-Item ".\Start shinra.lnk" -Destination "$HOME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" -Verbose
 
 echo "Script finished. Make sure to read the output."
