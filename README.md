@@ -17,4 +17,6 @@ cd shinra
 ./Install.ps1
 ```
 
-Once the installation is finished successfully, you can forget about it. The web root directory is `C:\Users\<user name>\scoop\apps\nginx\<nginx version>\html`.
+Once the installation is finished successfully, you can forget about it.
+
+The web root directory is `C:\Users\<user name>\scoop\apps\nginx\<nginx version>\html`. PostgreSQL runs on port `5432`. The username is `postgres` without any password. The loaded `php.ini` files are in `C:\Users\<user name>\scoop\apps\<php package name>\<php version>` and `C:\Users\<user name>\scoop\apps\<php package name>\<php version>\cli`. The latter file might override the former.
