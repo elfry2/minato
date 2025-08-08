@@ -28,4 +28,7 @@ New-Item -Path "C:\shinra" -ItemType Directory -Verbose
 Copy-Item ".\Start.ps1" -Destination "C:\shinra" -Verbose
 Copy-Item ".\Start shinra.lnk" -Destination "$HOME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" -Verbose
 
+# Start shinra.
+.\Start.ps1
+
 echo "Script finished. Make sure to read the output."
