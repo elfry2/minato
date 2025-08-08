@@ -1,5 +1,3 @@
-. .\Config.ps1
-
 $InitialDirectory = "$PWD"
 
 # Start PHP-CGI.
